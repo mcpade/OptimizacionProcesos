@@ -20,7 +20,7 @@ La solución de IA que resolverá el problema descrito anteriormente es un model
 
 El código python se encuentra en el fichero **qlearning.py**
 
-Loa pasos seguidos son:
+Los pasos seguidos son:
 
 - Definición del entorno. Estados, acciones, matriz de recompensa
 - Contrucción de la solución IA con Q-Learning
