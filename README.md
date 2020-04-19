@@ -4,7 +4,7 @@
 
 El problema a resolver será optimizar los flujos dentro del siguiente almácen:
 
-
+![Almacen](https://raw.githubusercontent.com/mcpade/OptimizacionProcesos/master/Almacen.png)
 
 El almacén pertenece a una empresa online minorista que vende productos a una variedad de clientes. 
 Dentro de este almacén, los productos se almacenan en 12 ubicaciones diferentes, etiquetadas con letras de la A a la L.
