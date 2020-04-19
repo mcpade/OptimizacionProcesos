@@ -16,6 +16,16 @@ Un robot de almacén autónomo debe moverse a la ubicación de destino por la ru
 
 La solución de IA que resolverá el problema descrito anteriormente es un modelo de Q-Learning. 
 
+### Desarrollo
+
+El código python se encuentra en el fichero **qlearning.py**
+
+Loa pasos seguidos son:
+
+- Definición del entorno. Estados, acciones, matriz de recompensa
+- Contrucción de la solución IA con Q-Learning
+- Poner el modelo en producción
+
 
 
 
