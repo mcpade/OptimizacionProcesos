@@ -1,30 +1,30 @@
-# Optimización de Procesos - Q-Learning. Ecuación de Bellman
+# Process Optimization - Q-Learning. Bellman's equation
 
-## Caso práctico IA: Optimización de tareas en un almacén de comercio electrónico.
+## Case study IA: Optimization of tasks in an e-commerce warehouse.
 
-El problema a resolver será optimizar los flujos dentro del siguiente almácen:
+The problem to be solved will be to optimize the flows within the following warehouse:
 
 ![Almacen](https://raw.githubusercontent.com/mcpade/OptimizacionProcesos/master/Almacen.png)
 
-El almacén pertenece a una empresa online minorista que vende productos a una variedad de clientes. 
-Dentro de este almacén, los productos se almacenan en 12 ubicaciones diferentes, etiquetadas con letras de la A a la L.
-A medida que los clientes hacen los pedidos online, un robot de almacén autónomo se mueve por el almacén 
-para recoger los productos para futuras entregas.
-Las 12 ubicaciones están conectadas a un sistema informático, que clasifica en tiempo real las prioridades de recolección de productos para estas 12 ubicaciones.
+The warehouse is owned by an online retail company that sells products to a variety of customers.
+Within this warehouse, products are stored in 12 different locations, labeled with letters from A to L.
+As customers order online, an autonomous warehouse robot moves around the warehouse
+to collect the products for future deliveries.
+The 12 locations are connected to a computer system, which classifies in real time the product collection priorities for these 12 locations.
 
-Un robot de almacén autónomo debe moverse a la ubicación de destino por la ruta más corta, dependiendo de dónde se encuentre.  Nuestro objetivo es construir una IA que devuelva esa ruta más corta, donde sea que esté el robot. Además se implementa una opción para que nuestro Robot de almacén autónomo pase por una ubicación intermedia antes de llegar a su ubicación final.
+An autonomous warehouse robot must move to the destination location by the shortest route, depending on where it is. Our goal is to build an AI that returns that shortest path, wherever the robot is. In addition, an option is implemented for our autonomous warehouse Robot to go through an intermediate location before reaching its final location.
 
-La solución de IA que resolverá el problema descrito anteriormente es un modelo de Q-Learning. 
+The AI solution that will solve the problem described above is a Q-Learning model.
 
-### Desarrollo
+### Developing
 
-El código python se encuentra en el fichero **qlearning.py**
+The python code is in the file **qlearning.py**
 
-Los pasos seguidos son:
+The steps followed are:
 
-- Definición del entorno. Estados, acciones, matriz de recompensa
-- Contrucción de la solución IA con Q-Learning
-- Poner el modelo en producción
+- Definition of the environment. States, actions, reward matrix
+- Building the AI solution with Q-Learning
+- Put the model in production
 
 
 
